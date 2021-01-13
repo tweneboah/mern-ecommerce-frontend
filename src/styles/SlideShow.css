@@ -1,0 +1,58 @@
+.slideshowsection {
+  height: 90vh;
+  min-height: auto;
+  background-color: #c03838;
+  background-image: url('../images/slide1.jpg');
+  background-position: 0px 0px;
+  background-size: auto;
+}
+
+.slide-nav {
+  background-color: transparent;
+}
+
+.sliderimg1 {
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.12)),
+      to(rgba(0, 0, 0, 0.12))
+    ),
+    url('../images/slide1.jpg');
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.12),
+      rgba(0, 0, 0, 0.12)
+    ),
+    url('../images/slide1.jpg');
+  background-position: 0px 0px, 50% 50%;
+  background-size: auto, cover;
+}
+
+.sliderimg2 {
+  background-image: url('../images/buy2.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.sliderimg3 {
+  background-image: url('../images/shipping.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+@media screen and (max-width: 991px) {
+}
+
+@media screen and (max-width: 767px) {
+  .slideshowsection {
+    min-height: auto;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .slideshowsection {
+    height: 40vh;
+  }
+}

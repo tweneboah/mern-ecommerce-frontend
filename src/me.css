@@ -1,0 +1,23 @@
+.element {
+  color: red;
+}
+
+.element:hover {
+  transform: scale(1.24);
+  border: 2px solid red;
+  transition: 0.35s;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+/* Menu */
+
+.menu {
+  color: red;
+}
+
+.menu:hover {
+  transform: scale(1.24);
+  border: 2px solid red;
+  transition: 0.35s;
+  transition-timing-function: cubic-bezier(0.165, 0.84, 0.44, 1);
+}

@@ -1,0 +1,5 @@
+/* You can mport custom fonts here */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import '~react-image-gallery/styles/css/image-gallery.css';
